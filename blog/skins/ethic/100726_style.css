@@ -1,0 +1,679 @@
+/*
+* Original Design: Zeke 1.0 by Michael D. Pollock - http://www.solostream.com/
+* Ported to b2evolution 2.0 by The Skin Faktory - http://skinfaktory.com/
+* Distributed under GPL license with b2evolution with written permission from Michael D. Pollock (2007-06-22).
+*/
+
+@import url("../../rsc/css/basic.css");	/* Import basic styles */
+@import url("../../rsc/css/blog_base.css");	/* Import default blog navigation styles */
+@import url("item.css");	/* Import blog content styles */
+
+
+@font-face {
+    font-family: 'EthicFont';
+    src: url('../font/FUTURAM.eot');
+    src: local('?'),
+        url('../font/FUTURAM.woff') format('woff'),
+		url('../font/FUTURAM.ttf') format('truetype');     
+}
+
+/* -------------------[ Main Page Elements ]------------------- */
+
+#iframeheaderblog {
+	width: 100%;
+	height: 173px;
+	frameborder: 0;
+	border:0;	
+	scrolling: 0; 
+	resize: no;
+	overflow: hidden;
+}
+
+#outer_wrap {
+font-size: 10pt;
+font-family: Arial, sans-serif;
+/*background: #ede9e0 repeat-y;*/
+text-align: left;
+margin: 0;
+padding: 0;
+overflow:hidden;
+}
+
+#wrap {
+padding: 0 5px;
+width: 960px;
+margin: 0 auto;
+/*background:#ede9e0 url(../images/common/bg_main.png) repeat-x 0 0;*/
+}
+
+#headerblog {
+color: #FAF7E8;
+width:960px;
+clear: both;
+padding: 0;
+margin: 0 auto;
+height:160px;
+background: #330000 top center no-repeat;
+display:none;
+}
+
+#navblog {
+width:960px;
+background: #ede9e0 center center no-repeat;
+height:30px;
+line-height:40px;
+margin: 0 auto;
+padding:1px 0 0;
+border-bottom:1px solid #fff;
+font-size:.8em;
+}
+
+#page {
+clear: both;
+margin: 0 auto;
+padding: 0;
+}
+
+#contentleft {	
+float:left;
+padding: 0;
+margin: 0;
+}
+
+#content {
+background:#fff url(../images/common/bg_blog.png) repeat-y 100% 0;
+width: 687px;
+float: left;
+padding-top: 15px;
+padding-right: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+min-height: 600px;
+font-family:Arial,sans-serif;
+font-size:12px;
+}
+
+#content h1 {
+font-weight: normal;
+text-align:left;
+color: #768d16;
+font-family: 'EthicFont',Arial,sans-serif;
+font-size: 2.2em;
+margin-top: 0pt;
+margin-right: 0pt;
+margin-bottom: 7px;
+margin-left: 0pt;
+padding-top: 7px;
+}
+
+#midcontent {
+background:#867d6a;
+color: #ffffff;
+font-family:Arial,sans-serif;
+float: right;
+width: 207px;
+padding-top: 13px;
+padding-right: 20px;
+padding-bottom: 13px;
+padding-left: 20px;
+min-height: 600px;
+}
+
+#contentright {
+display:none;
+background:#867d6a;
+font-family:Arial,sans-serif;
+font-size: 8pt;
+width: 250px;
+float:left;
+padding: 15px 0 15px 15px;
+margin: 0 0 15px;
+}
+
+#sidebar {
+width: 250px;
+font-size: 8pt;
+float: left;
+margin: 0;
+padding: 0;
+}
+
+#footer {
+	display:none;
+border-top:1px solid #fff;
+font-family:Arial,sans-serif;
+font-size: 8pt;
+color:#996600;
+width:960px;
+background:#220000;
+font-size: 8pt;
+line-height: 160%;
+clear: both;
+margin: 0px auto;
+padding: 20px 0 ;
+text-align: center;
+}
+
+#footer p {
+margin: 0;
+}
+
+/* -------------------[ Headings ]------------------- */
+
+h1, h2, h3, h4, h5, h6, h7 {
+color:#330000;
+font-family:Arial,sans-serif;
+letter-spacing:-1px;
+line-height: 130%;
+margin: 0;
+padding: 0;
+text-align: left;
+font-weight:normal;
+}
+
+h1 {
+text-align:center;
+font-size:30px;
+line-height:100%;
+padding: 5px;
+margin: 0;
+}
+h1 a,
+h1 a:visited {
+color: #FAF7E8;
+}
+
+h2 {
+font-size: 14pt;
+}
+
+h3 {
+font-size: 12pt;
+}
+
+h4,h5,h6,h7 {
+font-size: 10pt;
+}
+
+
+#sidebar h2, #midcontent h2  {
+color: #fff;
+font-weight: bold;
+font-size:9pt;
+letter-spacing:0px;
+margin: 0;
+padding-top: 0pt;
+padding-right: 0pt;
+padding-bottom: 0pt;
+padding-left: 5px;
+}
+
+
+h1.sectionhead, h2.sectionhead, h2#trackbacks, h3.feedback_section, h3.comment_form_title  {
+line-height:100%;
+font-weight: bold;
+font-size:10pt;
+letter-spacing:0px;
+margin: 0;
+padding: 10px 15px;
+border-bottom:1px solid #CCC9B8;
+background:#E5E0C3;
+}
+
+.entry h1,.entry h2,.entry h3, .entry h4, .entry h5, .entry h6, .entry h7 {
+margin-bottom: 10px;
+}
+
+
+/* -------------------[ Links ]------------------- */
+
+a {
+color: #996600;
+text-decoration: none;
+font-size: bold;
+}
+
+a:hover {
+text-decoration:underline;
+color:#000;
+}
+
+.entry a, .entry a:link, .entry a:visited, .postinfo a, .postinfo a:link, .postinfo a:visited, .postinfo2 a, .postinfo2 a:link, .postinfo2 a:visited {
+text-decoration: underline;
+}
+
+.post h1 a, .featurepost h2 a, .featurepost h1 a {
+color:#330000;
+}
+
+.post h2 a {	
+	color: #389ed9;
+	padding-left: 15px;	
+	background-color: transparent;
+	background-image: url("http://www.ethic-etapes.fr/images/common/bullet_blue.gif");
+	background-repeat: no-repeat;	
+	background-attachment: scroll;
+	background-position: 1px 8px;	
+}
+
+#footer a:hover {
+text-decoration:underline;
+color:#996600;
+}
+
+#footer a.contact_link:hover {
+color:#fff;
+}
+
+/* -------------------[ Images ]------------------- */
+
+img.alignright {
+float: right;
+clear: right;
+margin: 0 0 5px 10px;
+background: #fff;
+padding: 2px;
+border: 1px solid #ccc;
+}
+
+img.alignleft {
+float: left;
+clear: left;
+margin: 0 10px 5px 0px;
+background: #fff;
+padding: 2px;
+border: 1px solid #ccc;
+}
+
+img.centered {
+display: block;
+padding: 2px;
+margin: 0 auto 20px auto;
+border: 1px solid #ccc;
+float: none;
+clear: both;
+}
+
+
+
+/* -------------------[ Sidebar ]------------------- */
+
+
+#sidebar ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+}
+
+#sidebar ul li {
+list-style-type: none;
+margin: 0;
+padding: 0;
+}
+
+#sidebar ul li ul {
+list-style-type: square;
+margin: 0;
+padding: 0;
+}
+
+#sidebar ul li ul li {
+list-style-type:none;
+padding-left:15px;
+margin:0;
+background: 0 5px no-repeat;
+}
+
+/* -------------------[ Middle Content ]------------------- */
+
+#midcontent ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+}
+
+#midcontent ul li {
+list-style-type: none;
+margin: 0 0 10px;
+padding: 0;
+}
+
+#midcontent ul li ul {
+list-style-type: square;
+margin: 0;
+padding: 0;
+}
+
+#midcontent ul li ul li {
+list-style-type:none;
+padding-left:15px;
+margin:0;
+background: 0 5px no-repeat;
+font-size:12px;
+}
+
+#midcontent a {
+	color:#fff
+}
+/* -------------------[ Form Elements ]------------------- */
+
+form.bComment {
+font-size:8pt;
+background: #F2ECCE;
+padding: 15px 15px 1px;
+margin: 0;
+border: none;
+border-bottom:1px solid #CCC9B8;
+}
+
+#commentform label {
+display:block;
+margin: 0;
+}
+
+#commentform input {
+width: 170px;
+padding: 1px;
+margin: 0px 5px 10px 0;
+}
+
+#commentform textarea {
+width: 400px;
+padding: 0;
+margin: 0px 0px 10px 0;
+}
+
+#commentform #submit {
+margin: 0 0 20px 0;
+}
+
+#commentform p {
+margin: 5px 0;
+}
+
+
+/* -------------------[ Comments ]------------------- */
+
+div.bComment,
+div.moderation_msg,
+div.feedback_feed_msg {
+font-size:8pt;
+display: block;
+list-style: none;
+padding: 15px 15px 0;
+margin: 0;
+border: none;
+border-bottom:1px solid #CCC9B8;
+}
+
+div.bCommentSmallPrint {
+font-size: 100%;
+margin-bottom: 15px;
+}
+
+#comment_preview {
+background-color: #f2ecce;
+}
+
+/* -------------------[ Misc Tags and Classes ]------------------- */
+
+#headerblog .widget_core_coll_tagline {
+color:#FAF7E8;
+font-size: 12pt;
+padding: 0 100px;
+margin: 0;
+text-align:center;
+}
+
+.post ul, .singlepost ul {
+list-style-type: none;
+}
+
+.post ul li, .singlepost ul li {
+list-style-type:none;
+background: 0 4px no-repeat;
+padding: 0 0 2px 14px;
+}
+
+.bText a {
+color:#630;
+}
+.bText a:visited {
+color:#410;
+}
+
+table.prevnext_post {
+margin: 10px auto;
+}
+
+.navigation {
+text-align: left;
+margin:0;
+padding: 10px 15px;
+}
+
+.alignleft {
+float:left;
+}
+
+.alignright {
+float:right;
+}
+
+.entry {
+padding: 0;
+margin: 0;
+}
+
+.postinfo {
+font-family:tahoma,geneva,verdana,sans-serif;
+font-size: 8pt;
+background: url(img/doc.gif) 0 3px no-repeat;
+clear: both;
+margin: 0 0 10px;
+padding-left: 14px;
+}
+
+.post {
+margin: 0 ;
+padding: 15px 17px 15px 17px;
+border-bottom:1px solid #CCC9B8;
+background-color: transparent;
+background-image: url("http://www.ethic-etapes.fr/images/common/bg_blog_post.png"); 
+background-repeat: repeat-x;
+background-attachment: scroll;
+background-position: 0pt 0pt;
+overflow-x: hidden;
+overflow-y: hidden;
+margin-bottom: 11px;
+}
+
+.featurepost {
+margin: 0;
+padding: 15px 15px 5px;
+background:#F2ECCE;
+border-bottom:1px solid #CCC9B8;
+}
+
+code {
+font: 1.1em 'Courier New', Courier, Fixed;
+}
+
+hr {
+display: block:
+clear:both;
+}
+
+p.bMore a {
+background: url(img/arrow-rt.gif) 100% 70% no-repeat;
+padding-right:16px;
+}
+
+/* -------------------[ Search ]------------------- */
+
+.SearchField {
+font-size:8pt;
+width: 140px;
+margin-right: 2px;
+}
+.search p {
+margin-bottom: 0;
+}
+.search {
+margin-bottom: 15px;
+}
+.search .submit {
+font-size:8pt;
+}
+
+/* -------------------[ Navigation ]------------------- */
+
+ul.nav {
+font-size: 10px;
+font-weight:bold;
+letter-spacing: 0px;
+height:30px;
+line-height:30px;
+float:left;
+list-style: none;
+padding: 0;
+margin: 0;
+color: #82807d;
+font-family: Arial,sans-serif;
+}
+
+ul.nav li {
+float: left !important;
+margin: 0;
+padding: 0;
+list-style-type: none;
+background-image: url("http://www.ethic-etapes.fr/images/common/bullet_footer.gif");
+background-color: transparent;
+background-repeat: no-repeat;
+background-attachment: scroll;
+background-position: 0pt 54%;
+}
+
+ul.nav li a, ul.nav li a:link, ul.nav li a:visited {
+color: #82807d;
+float: left;
+display: block;
+padding: 0 10px;
+text-decoration: none;
+}
+
+ul.nav li a:hover, ul.nav li a:active {
+text-decoration: underline;
+}
+
+ul.nav li.current_page_item a {
+text-decoration: underline;
+}
+
+ul.nav li ul {
+float:left;
+margin:0;
+padding:0;
+}
+
+/* ---------------[ Tables ]--------------- */
+
+.entry table {
+margin-bottom:15px;
+padding:auto;
+border:auto;
+}
+
+.entry tr, .entry td, .entry th {
+margin:auto; padding:auto; border:auto;
+}
+
+.entry td, .entry th {
+padding:8px;
+vertical-align:top;
+}
+
+.entry th {
+font-weight:bold;
+background:#E5E0C3;
+}
+
+.entry td {
+border:1px solid #E5E0C3;
+}
+
+/* ---------------[ Related Entries ]--------------- */
+
+.related {
+margin: 0 0 1px;
+background:#eee;
+padding:10px 10px 8px;
+}
+
+.related ul {
+line-height:130%;
+margin: 0;
+padding-left:0;
+list-style-type: none;
+}
+
+.related ul li {
+list-style-type:none;
+padding: 0 0 0 14px;
+margin: 0 0 2px;
+background: url(img/zekebullet.gif) 0 3px no-repeat;
+}
+
+ul#archives {
+margin: 0 0 15px 5px;
+padding: 0;
+}
+
+ul#archives ul {
+padding:0;
+}
+
+ul#archives ul li {
+background:transparent;
+padding-left:0;
+margin:0;
+}
+
+ul#archives ul ul {
+margin:0;
+margin-left: 10px;
+padding:0;
+}
+
+
+
+/*
+* Header / bloglist on top:
+*/
+div#headerblog ul {
+float:right;
+list-style-type:none;
+margin: 0;
+padding: 6px 4px;
+}
+div#headerblog li {
+margin: 0;
+display: inline;
+padding: 0 1ex 0 0;
+}
+div#headerblog li a {
+font-weight: bold;
+font-style:italic;
+color: #fff;
+}
+div#headerblog li a:hover {
+color: #666;
+text-decoration: underline;
+}
+div#headerblog li a.selected {
+text-decoration: underline;
+}
+
+div.widget_core_coll_title {
+	padding-top: 45px;
+}

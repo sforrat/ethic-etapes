@@ -1,0 +1,26 @@
+# on ignore tous les fichiers compiler de smarty
+*.tpl.php
+.htaccess
+*.db
+
+# on ignore le fichier de projet de PHPStorm
+.idea
+
+*.bak
+_back/
+
+admin/include/_back/*
+logs/*
+cache/*
+fullkit_php5_upgrade/
+fullkit_php5_upgrade/*
+admin/library_local/lib_global.inc.php
+
+index_fr_.html
+index_fr_1.html
+index_en_1.html
+flash/swf_carte_fr.html
+
+# exclusion de images upload
+images/upload/*/*
+#!README

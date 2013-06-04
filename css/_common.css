@@ -1,0 +1,84 @@
+body
+{
+	margin : 0px;
+	padding : 0px;
+}
+
+
+/*.titrge12 { font-family: Arial, Verdana, Helvetica, sans-serif; font-size: 12px; font-style: normal; font-weight: bold; color: #DF0021; font-weight: normal ; text-decoration: none}
+
+.txt, td { font-family: Arial, Verdana, Helvetica, sans-serif; font-size: 11px; font-style: normal; font-weight: normal; color: #000000; line-height: normal; font-variant: normal; text-transform: none}
+
+.lienplan1bis {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #000000;
+}
+.lienplan1bis:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #000000;
+	font-decoration : underline;
+}
+.lienplan2bis {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #555555;
+}
+
+a.lienplan1 { font-family: Arial, Verdana, Helvetica, sans-serif; font-size: 12px; color: #000000; font-weight: normal ; text-decoration: none}
+
+a.lienplan1:link { font-family: Arial, Verdana, Helvetica, sans-serif; font-size: 12px; color: #000000; font-weight: normal ; text-decoration: none}
+
+a.lienplan1:hover { font-family: Arial, Verdana, Helvetica, sans-serif; font-size: 12px; color: #000000; font-weight: normal ; text-decoration: underline}
+
+a.lienplan2 { font-family: Arial, Verdana, Helvetica, sans-serif; font-size: 11px; color: #000000; font-weight: normal ; text-decoration: none}
+
+a.lienplan2:link { font-family: Arial, Verdana, Helvetica, sans-serif; font-size: 11px; color: #000000; font-weight: normal ; text-decoration: none}
+
+a.lienplan2:hover { font-family: Arial, Verdana, Helvetica, sans-serif; font-size: 11px; color: #000000; font-weight: normal ; text-decoration: underline}
+
+*/
+
+
+/* CYBERCITE */
+.cychaut {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1px;
+	font-weight: bold;
+	color: #79C7E7;
+	text-decoration: none;
+}
+
+.cychaut a,.cychaut TABLE,.cychaut TD {
+
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 1px;
+	color: #79C7E7;
+	text-decoration: none;
+}
+.cycbas {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1px;
+	font-weight: bold;
+	color: #FFDE7A;
+	text-decoration: none;
+}
+
+.cycbas a,.cycbas TABLE,.cycbas TD {
+
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 1px;
+	color: #FFDE7A;
+	text-decoration: none;
+}
+/* FIN CYBERCITE */
+
+/* Styles modifiant le pointeur en sablier */
+.sablier { cursor: wait; }
+.sablier A { cursor: wait; }

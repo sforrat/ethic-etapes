@@ -1,0 +1,103 @@
+<?
+session_start();
+
+require "library_local/lib_global.inc.php";
+require "library/fonction.inc.php";
+require "library/lib_tools.inc.php";
+require "library/lib_ldap.inc.php";
+require "library/lib_design.inc.php";
+require "library/lib_bo.inc.php";
+
+require "include/inc_init_bo.inc.php";
+
+$DisplayMode = "PopUp";//On cache le menu deroulant
+
+include "include/inc_header.inc.php";
+
+?> 
+<script>
+    genie = window.open('genie.php','pop_genie','width=10,height=10');
+	genie.document.close;
+	genie.blur();
+    window.focus();
+//    document.form_genie.mon_genie.value= eval(genie);
+</script>
+<?
+
+if ($Log == 1) {
+	$StrSQL = "Select * from "._CONST_BO_CODE_NAME."user where STRCMP(login,\"".$login."\")=0 and STRCMP(password,\"".$password."\")=0";
+	$RstUser = mysql_query($StrSQL);
+
+	//Authentification Proprietaire sur base
+	if (@mysql_num_rows($RstUser)>0) {
+		session_register("ses_user_id");
+		$ses_user_id = @mysql_result($RstUser,0,"id_"._CONST_BO_CODE_NAME."user");
+		session_register("ses_user");
+		$ses_user = @mysql_result($RstUser,0,"prenom")."&nbsp;".@mysql_result($RstUser,0,"nom");
+		session_register("ses_profil_user");
+		$ses_profil_user = @mysql_result($RstUser,0,"id_"._CONST_BO_CODE_NAME."profil");
+		session_register("ses_id_bo_user");
+		$ses_id_bo_user = @mysql_result($RstUser,0,"id_"._CONST_BO_CODE_NAME."user");
+		
+		//Insertion du user dans la table de statistique
+		StatsBo($ses_id_bo_user,$HTTP_USER_AGENT,$TableDef,$QUERY_STRING,$PHP_SELF);
+		
+		redirect("bo.php?Home=1");
+	}
+	//Authentification LDAP
+	elseif (ldap_check_user($login,$password)) {
+
+		session_register("ses_user_id");
+		$ses_user_id = ldap_get_user_info($login,"uidnumber");
+		session_register("ses_intervenant_id");
+		$ses_intervenant_id = mysql_result(mysql_query("select id_intervenant from intervenant where email like(\"%".str_replace(".","",$login)."%\")"),0,0);
+		session_register("ses_user");
+		$ses_user = ldap_get_user_info($login,"cn")." <i>(LDAP)</i>";
+		session_register("ses_profil_user");
+		$ses_profil_user = _CONST_LDAP_DEFAULT_PROFIL_ID;
+		session_register("ses_id_bo_user");
+		$ses_id_bo_user = _CONST_LDAP_DEFAULT_USER_ID;
+		
+
+		//Insertion du user dans la table de statistique
+		StatsBo($ses_id_bo_user,$HTTP_USER_AGENT,$TableDef,$QUERY_STRING,$PHP_SELF);
+		
+		redirect("bo.php?Home=1");
+
+	}
+	else {
+		redirect(NomFichier($PHP_SELF,0));
+	}
+}
+
+
+//Affichage de la date
+$Annee = split("/",CDate(date("Y-m-d"),1));
+$Annee = $Annee[2];
+?>
+<FORM METHOD=POST action="<?echo NomFichier($PHP_SELF,0)."?Log=1"?>" name="Log">
+<table>
+<tr>
+	<td>Login :</td>
+	<td><INPUT TYPE="text" NAME="login" class="InputText"></td>
+</tr>
+<tr>
+	<td>Password :</td>
+	<td><INPUT TYPE="password" NAME="password" class="InputText">&nbsp;&nbsp;<INPUT TYPE="submit" value="OK" class="InputText"></td>
+</tr>
+<tr>
+	<td colspan="2" align="center"><br>Copyright &copy; <?=$Annee?> -  <a href="http://www.fullsud.com" target="_blank">FullSud</a></td>
+</tr>
+</table>
+<!-- Height : <input type="text" name="Height" value="">
+<br>
+Width : <input type="text" name="Width" value="">
+</FORM>
+<script>
+document.Log.Width.value = screen.width;
+document.Log.Height.value = screen.height;
+</script>
+ -->
+<?
+include "include/inc_footer.inc.php";
+?>

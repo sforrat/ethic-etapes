@@ -1,0 +1,175 @@
+FONT			{FONT-FAMILY: Verdana,Helvetica; FONT-SIZE: 10px}
+BODY			{FONT-FAMILY: Verdana,Helvetica; FONT-SIZE: 10px}
+P				{FONT-FAMILY: Verdana,Helvetica; FONT-SIZE: 10px}
+DIV				{FONT-FAMILY: Verdana,Helvetica; FONT-SIZE: 10px}
+INPUT			{BORDER-TOP-COLOR: #000000; BORDER-LEFT-COLOR: #000000; BORDER-RIGHT-COLOR: #000000; BORDER-BOTTOM-COLOR: #000000; BORDER-TOP-WIDTH: 1px; BORDER-LEFT-WIDTH: 1px; FONT-SIZE: 10px; BORDER-BOTTOM-WIDTH: 1px; FONT-FAMILY: Verdana,Helvetica; BORDER-RIGHT-WIDTH: 1px}
+TEXTAREA		{BORDER-TOP-COLOR: #000000; BORDER-LEFT-COLOR: #000000; BORDER-RIGHT-COLOR: #000000; BORDER-BOTTOM-COLOR: #000000; BORDER-TOP-WIDTH: 1px; BORDER-LEFT-WIDTH: 1px; FONT-SIZE: 10px; BORDER-BOTTOM-WIDTH: 1px; FONT-FAMILY: Verdana,Helvetica; BORDER-RIGHT-WIDTH: 1px}
+SELECT			{BORDER-TOP-COLOR: #000000; BORDER-LEFT-COLOR: #000000; BORDER-RIGHT-COLOR: #000000; BORDER-BOTTOM-COLOR: #000000; BORDER-TOP-WIDTH: 1px; BORDER-LEFT-WIDTH: 1px; FONT-SIZE: 10px; BORDER-BOTTOM-WIDTH: 1px; FONT-FAMILY: Verdana,Helvetica; BORDER-RIGHT-WIDTH: 1px}
+FORM			{FONT-FAMILY: Verdana,Helvetica; FONT-SIZE: 10px}
+.title			{BACKGROUND: none; COLOR: #000000; FONT-SIZE: 14px; FONT-WEIGHT: bold; FONT-FAMILY: Verdana, Helvetica; TEXT-DECORATION: none}
+.content		{BACKGROUND: none; COLOR: #000000; FONT-SIZE: 10px; FONT-FAMILY: Verdana, Helvetica}
+.block-title	{BACKGROUND: none; COLOR: #FFFFFF; FONT-SIZE: 10px; FONT-FAMILY: Verdana, Helvetica}
+.storytitle		{BACKGROUND: none; COLOR: #363636; FONT-SIZE: 12px; FONT-WEIGHT: bold; FONT-FAMILY: Verdana, Helvetica; TEXT-DECORATION: none}
+.storycat		{BACKGROUND: none; COLOR: #363636; FONT-SIZE: 10px; FONT-WEIGHT: bold; FONT-FAMILY: Verdana, Helvetica; TEXT-DECORATION: underline}
+.boxtitle		{BACKGROUND: none; COLOR: #363636; FONT-SIZE: 10px; FONT-WEIGHT: bold; FONT-FAMILY: Verdana, Helvetica; TEXT-DECORATION: none}
+.boxcontent		{BACKGROUND: none; COLOR: #000000; FONT-SIZE: 10px; FONT-FAMILY: Verdana, Helvetica}
+.option			{BACKGROUND: none; COLOR: #000000; FONT-SIZE: 10px; FONT-WEIGHT: bold; FONT-FAMILY: Verdana, Helvetica; TEXT-DECORATION: none}
+.tiny			{BACKGROUND: none; COLOR: #000000; FONT-SIZE: 10px; FONT-WEIGHT: normal; FONT-FAMILY: Verdana, Helvetica; TEXT-DECORATION: none}
+
+
+A:link {
+color:#0000CC;
+text-decoration: none;
+font-size: 12px;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+A:hover {
+color:#FF6633;
+text-decoration: none;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 12px;
+}
+
+a.lien:hover {
+font-family: Arial, Helvetica, sans-serif;
+font-size: 12px;
+font-style: normal;
+line-height: normal;
+font-weight: normal;
+font-variant: normal;
+color: #FF6633;
+text-decoration: none;
+text-transform: none;
+}
+a.lien:link { 
+font-family: Arial, Helvetica, sans-serif;
+font-size: 12px;
+font-style: normal;
+line-height: normal;
+font-weight: normal;
+font-variant: normal;
+color: #0000CC;
+text-decoration: none;
+text-transform: none;
+}
+
+a.lienbouton, a.lienbouton:active { 
+font-family: Arial, Helvetica, sans-serif;
+font-size: 12px;
+font-style: normal;
+line-height: normal;
+font-weight: bold;
+font-variant: normal;
+color: #FFFFFF;
+text-decoration: none;
+text-transform: none;
+} 
+
+a.lienbouton:hover {
+font-family: Arial, Helvetica, sans-serif;
+font-size: 12px;
+font-style: normal;
+line-height: normal;
+font-weight: bold;
+font-variant: normal;
+color: #FF6633;
+text-decoration: none;
+text-transform: none;
+}
+
+
+td{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 12px;
+}
+
+
+
+.popup {
+font-family: Arial, Helvetica, sans-serif;
+font-size: 11px;
+color: #000000;
+background-color: #Ffce5a;
+}
+
+.titre {
+font-family: Arial, Helvetica, sans-serif;
+font-size: 12px;
+font-weight: bold;
+text-transform: capitalize;
+}
+
+
+
+
+
+A { 
+color:#0000CC;
+text-decoration: none;
+font-size: 12px;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+p { 
+font-family: Arial, Helvetica, sans-serif;
+font-size: 12px;
+}
+
+tableau  { 
+font-family: Arial, Helvetica, sans-serif;
+font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.td_out {  font-family: Arial, Helvetica, sans-serif;
+ font-size: 10pt;
+ color: #000000;
+ background-color: #F3F4FF;
+ cursor:pointer;
+}
+.td_over {  font-family: Arial, Helvetica, sans-serif;
+ font-size: 10pt;
+ color: #000000;
+ background-color: #B0F0FF;
+ cursor:pointer;
+}
+.td_clic {  font-family: Arial, Helvetica, sans-serif;
+ font-size: 10pt;
+ color: #000000;
+ background-color: #80B0FF;
+ cursor:pointer;
+}
+
+.td_entre_out {  background-color: #F3F4FF;
+ cursor:normal;
+}
+.td_entre_over {  background-color: #000000;
+ cursor:pointer;
+}
+
+
+
+a.lien { 
+font-family: Arial, Helvetica, sans-serif;
+font-size: 12px;
+font-style: normal;
+line-height: normal;
+font-weight: normal;
+font-variant: normal;
+color: #0000CC;
+text-decoration: none;
+text-transform: none
+ } 

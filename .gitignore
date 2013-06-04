@@ -1,0 +1,21 @@
+# on ignore tous les fichiers compiler de smarty
+*.tpl.php
+*.db
+
+# backups, logs et cache
+*.bak
+_back/
+admin/include/_back/*
+logs/*
+cache/*
+fullkit_php5_upgrade/
+fullkit_php5_upgrade/*
+
+# on ignore le fichier de projet de PHPStorm
+.idea
+
+# htaccess
+.htaccess
+
+admin/library_local/lib_global.inc.php
+

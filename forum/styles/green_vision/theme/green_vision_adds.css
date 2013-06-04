@@ -1,0 +1,45 @@
+/* specifics green vision css
+-------------------------------------------------*/
+
+--------------------------------------------------------------
+Header menu
+-------------------------------------------------------------- */
+
+#icons_header {
+	width: 1024px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: #fff;
+}
+
+#icons_header ul {
+	background: #fff url("{T_THEME_PATH}/images/bg_nav.gif") 0 0 no-repeat;
+	width: 972px;
+	height: 41px;
+	margin-top: -10px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	list-type: none;
+}
+
+#icons_header li {
+	display: inline;
+	line-height: 5em;
+}
+
+#icons_header li a {
+	height: 41px;
+	font-weight: bold;
+	padding: 10px 10px 17px 10px;
+	color: #B7D42D;
+	font-size: 1.0em; 
+	text-align: center;
+}
+
+#icons_header li a:hover {  
+	background: url("{T_THEME_PATH}/images/bg_nav_hover.gif") 0 0 repeat-x;
+	text-decoration: none;
+	color: #fff;
+}

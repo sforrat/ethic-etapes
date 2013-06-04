@@ -1,0 +1,410 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Francois PLANQUE
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Feed Importer Pro plugin v1.0\n"
+"Report-Msgid-Bugs-To: http://fplanque.net/\n"
+"POT-Creation-Date: 2010-01-04 01:45-0500\n"
+"PO-Revision-Date: 2010-01-04 01:50-0500\n"
+"Last-Translator: Alex\n"
+"Language-Team: Russian b2evolution\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Russian\n"
+"X-Poedit-Country: RUSSIAN FEDERATION\n"
+
+#: ../../../_feed_importer.plugin.php:80
+msgid "Creates posts from different sources."
+msgstr "Создает записи из различных источников."
+
+#: ../../../_feed_importer.plugin.php:81
+msgid "This plugin allows you to import posts from different sources such as XML feeds, b2evo backup files (*.b2e), and plain text files. It also creates b2evo backup files (*.b2e)."
+msgstr "Этот плагин позволяет импортировать записи из различных источников, таких как: XML ленты, b2evo backup файлы (*.b2e )и CSV файлы. Он также создает b2evo backup файлы (*.b2e )."
+
+#: ../../../_feed_importer.plugin.php:111
+msgid "Recent feeds list"
+msgstr "Недавние ленты"
+
+#: ../../../_feed_importer.plugin.php:114
+msgid "Check this if you want to display a list or recently used XML feeds."
+msgstr "Отметьте, если хотите отображать список недавно импортированных XML лент."
+
+#: ../../../_feed_importer.plugin.php:117
+msgid "Asynchronous outbound pings"
+msgstr "Асинхронный пинг"
+
+#: ../../../_feed_importer.plugin.php:120
+msgid "Check this if you want to enable scheduled outbound pings."
+msgstr "Включить отправку пингов по расписанию."
+
+#: ../../../_feed_importer.plugin.php:121
+msgid "NOTE: make sure that your scheduled jobs are properly set up."
+msgstr "Обратите внимание, что для работы этой функции, назначенные задания должны быть корректно настроены."
+
+#: ../../../_feed_importer.plugin.php:124
+msgid "Scheduled import"
+msgstr "Импорт по расписанию"
+
+#: ../../../_feed_importer.plugin.php:128
+msgid "Check this if you want to enable scheduled XML feed import."
+msgstr "Отметьте, если хотите использовать импорт по расписанию"
+
+#: ../../../_feed_importer.plugin.php:141
+#: ../../../_feed_importer.plugin.php:516
+msgid "Published (Public)"
+msgstr "Опубликован (Публичный)"
+
+#: ../../../_feed_importer.plugin.php:142
+#: ../../../_feed_importer.plugin.php:517
+msgid "Draft (Not published!)"
+msgstr "Черновик (Не опубликован!)"
+
+#: ../../../_feed_importer.plugin.php:154
+#: ../../../_feed_importer.plugin.php:529
+msgid "Posts status"
+msgstr "Статус записей"
+
+#: ../../../_feed_importer.plugin.php:154
+#: ../../../_feed_importer.plugin.php:529
+msgid "Select the status for imported posts."
+msgstr "Выберите статус для импортируемых записей."
+
+#: ../../../_feed_importer.plugin.php:155
+#: ../../../_feed_importer.plugin.php:530
+msgid "Limit"
+msgstr "Число записей"
+
+#: ../../../_feed_importer.plugin.php:155
+#: ../../../_feed_importer.plugin.php:530
+msgid "Enter the number of items to import. Leave empty to import all available items."
+msgstr "Введите число импортируемых записей. Оставьте пустым чтобы импортировать все доступные."
+
+#: ../../../_feed_importer.plugin.php:157
+#: ../../../_feed_importer.plugin.php:534
+msgid "Post header"
+msgstr "В начало записи"
+
+#: ../../../_feed_importer.plugin.php:157
+#: ../../../_feed_importer.plugin.php:534
+msgid "Enter post header text here. This text will be added to the top of each post."
+msgstr "Введите текст, который будет помещен над каждой опубликованной записью."
+
+#: ../../../_feed_importer.plugin.php:158
+#: ../../../_feed_importer.plugin.php:535
+msgid "Post footer"
+msgstr "В конец записи"
+
+#: ../../../_feed_importer.plugin.php:158
+#: ../../../_feed_importer.plugin.php:535
+msgid "Enter post footer text here. This text will be added to the bottom of each post."
+msgstr "Введите текст, который будет помещен под каждой опубликованной записью."
+
+#: ../../../_feed_importer.plugin.php:160
+#: ../../../_feed_importer.plugin.php:537
+#, php-format
+msgid "The following tags will be replaced with the real values when <b>XML Feed</b> is imported: %s"
+msgstr "Следующие теги будут заменены их реальными значениями, при импорте <b>XML лент</b>: %s"
+
+#: ../../../_feed_importer.plugin.php:160
+#: ../../../_feed_importer.plugin.php:537
+#, php-format
+msgid "Example: Read original article %s on %s."
+msgstr "Пример: Оригинал этой записи %s в ленте %s."
+
+#: ../../../_feed_importer.plugin.php:184
+#: ../../../_feed_importer.plugin.php:618
+msgid "You must select a main category"
+msgstr "Вы должны выбрать основную рубрику для импорта записей"
+
+#: ../../../_feed_importer.plugin.php:210
+msgid "Import new posts from XML feeds"
+msgstr "Импорт записей из XML лент"
+
+#: ../../../_feed_importer.plugin.php:226
+msgid "Scheduled XML feed import is disabled in plugin settings"
+msgstr "Импорт по расписанию отключен в настройках плагина"
+
+#: ../../../_feed_importer.plugin.php:250
+msgid "Checking the feed for new posts"
+msgstr "Проверям ленту на наличие новых записей"
+
+#: ../../../_feed_importer.plugin.php:272
+msgid "No XML feeds found in the database!"
+msgstr "XML ленты не найдены в базе данных!"
+
+#: ../../../_feed_importer.plugin.php:308
+msgid "Back to Import/Export tab"
+msgstr "Назад на страницу Импорта/Экспорта"
+
+#: ../../../_feed_importer.plugin.php:310
+#: ../../../_feed_importer.plugin.php:483
+msgid "Manage XML feeds"
+msgstr "Уаправление XML лентами"
+
+#: ../../../_feed_importer.plugin.php:317
+#: ../../../_feed_importer.plugin.php:504
+msgid "Saved XML feeds"
+msgstr "Сохраненные XML ленты"
+
+#: ../../../_feed_importer.plugin.php:326
+msgid "The feed is disabled."
+msgstr "Лента отключена"
+
+#: ../../../_feed_importer.plugin.php:330
+msgid "The feed is enabled."
+msgstr "Лента включена"
+
+#. TRANS: shortcut for enabled
+#: ../../../_feed_importer.plugin.php:335
+msgid "En"
+msgstr "Вкл"
+
+#: ../../../_feed_importer.plugin.php:350
+msgid "Title"
+msgstr "Заголовок"
+
+#: ../../../_feed_importer.plugin.php:356
+msgid "URL"
+msgstr "URL"
+
+#: ../../../_feed_importer.plugin.php:357
+msgid "Open in new window"
+msgstr "Открыть в новом окне"
+
+#: ../../../_feed_importer.plugin.php:364
+msgid "Date Time"
+msgstr "Дата"
+
+#: ../../../_feed_importer.plugin.php:380
+msgid "Enable"
+msgstr "Включить"
+
+#: ../../../_feed_importer.plugin.php:384
+msgid "Disable"
+msgstr "Отключить"
+
+#: ../../../_feed_importer.plugin.php:386
+msgid "Delete"
+msgstr "Удалить"
+
+#: ../../../_feed_importer.plugin.php:386
+msgid "Do you really want to delete this feed?"
+msgstr "Вы действительно хотите удалить эту ленту?"
+
+#: ../../../_feed_importer.plugin.php:390
+msgid "Actions"
+msgstr "Действия"
+
+#: ../../../_feed_importer.plugin.php:422
+msgid "Export"
+msgstr "Экспорт"
+
+#: ../../../_feed_importer.plugin.php:425
+#: ../../../_feed_importer.plugin.php:459
+msgid "Select a blog"
+msgstr "Выберите блог"
+
+#: ../../../_feed_importer.plugin.php:425
+msgid "Export all items from selected blog in *.b2e format."
+msgstr "Экспортировать все записи из выбранного блога в формате *.b2e"
+
+#: ../../../_feed_importer.plugin.php:429
+msgid "Export !"
+msgstr "Экспорт !"
+
+#: ../../../_feed_importer.plugin.php:437
+msgid "No blogs avaliable for export yet."
+msgstr "Нет доступных для экспорта блогов."
+
+#: ../../../_feed_importer.plugin.php:446
+#: ../../../_feed_importer.plugin.php:485
+msgid "Import"
+msgstr "Импорт"
+
+#: ../../../_feed_importer.plugin.php:459
+msgid "Select a blog where you want to import posts."
+msgstr "Выберите блог для импорта записей."
+
+#: ../../../_feed_importer.plugin.php:463
+msgid "Continue..."
+msgstr "Продолжить..."
+
+#: ../../../_feed_importer.plugin.php:498
+msgid "None"
+msgstr "Нет"
+
+#: ../../../_feed_importer.plugin.php:504
+msgid "Select a feed you already used or enter new address below."
+msgstr "Выберите сохраненную XML ленту или введите новый адрес ниже."
+
+#: ../../../_feed_importer.plugin.php:508
+msgid "Address"
+msgstr "Адрес"
+
+#: ../../../_feed_importer.plugin.php:508
+msgid "Enter either remote (URL) or local (file path) address."
+msgstr "Введите удаленный (URL) или локальный (путь к файлу) адрес."
+
+#: ../../../_feed_importer.plugin.php:513
+msgid "Import type"
+msgstr "Тип импорта"
+
+#: ../../../_feed_importer.plugin.php:513
+msgid "What do you want to import?"
+msgstr "Что вы собираетесь импортировать?"
+
+#: ../../../_feed_importer.plugin.php:531
+msgid "Check post existance"
+msgstr "Проверка существования записей"
+
+#: ../../../_feed_importer.plugin.php:531
+msgid "Should we skip imported items if they already exist in the database."
+msgstr "Должны ли мы пропускать уже существующие записи и добавлять только новые или измененные."
+
+#: ../../../_feed_importer.plugin.php:532
+msgid "Import comments"
+msgstr "Импортировать комментарии"
+
+#: ../../../_feed_importer.plugin.php:532
+msgid "Should we import post comments, trackbacks etc. (<b>*.b2e import type only</b>)."
+msgstr "Должны ли мы импортировать комментарии, трекбеки и т.д. (<b>только для *.b2e файлов</b>)."
+
+#: ../../../_feed_importer.plugin.php:545
+msgid "Import !"
+msgstr "Импорт !"
+
+#: ../../../_feed_importer.plugin.php:545
+msgid "Do you really want to continue?"
+msgstr "Вы действительно хотите продолжить?"
+
+#: ../../../_feed_importer.plugin.php:572
+msgid "The feed has been enabled!"
+msgstr "Лента была включена!"
+
+#: ../../../_feed_importer.plugin.php:579
+msgid "The feed has been disabled!"
+msgstr "Лента была отключена!"
+
+#: ../../../_feed_importer.plugin.php:585
+msgid "The feed has been deleted!"
+msgstr "Лента была удалена!"
+
+#: ../../../_feed_importer.plugin.php:611
+msgid "Exported file zipped"
+msgstr "Экспортируемый файл заархивирован"
+
+#: ../../../_feed_importer.plugin.php:626
+#: ../../../_feed_importer.plugin.php:679
+msgid "The address field is empty."
+msgstr "Пустая строка адреса."
+
+#: ../../../_feed_importer.plugin.php:673
+msgid "Feed not found."
+msgstr "XML лента не найдена."
+
+#: ../../../_feed_importer.plugin.php:696
+#: ../../../_feed_importer.plugin.php:710
+#, php-format
+msgid "Invalid data supplied in %s"
+msgstr "Ошибка при чтении данных из %s"
+
+#: ../../../_feed_importer.plugin.php:767
+#, php-format
+msgid "The post %s already exists in DB, skipping..."
+msgstr "Запись %s уже существует, пропускаем..."
+
+#: ../../../_feed_importer.plugin.php:818
+msgid "Permission denied."
+msgstr "Доступ запрещен."
+
+#: ../../../_feed_importer.plugin.php:850
+#, php-format
+msgid "Invalid post title: %s"
+msgstr "Ошибка в заголовке записи: %s"
+
+#: ../../../_feed_importer.plugin.php:855
+msgid "Invalid post content"
+msgstr "Ошибка в содержании записи"
+
+#: ../../../_feed_importer.plugin.php:908
+msgid "New post created:"
+msgstr "Создана новая запись:"
+
+#: ../../../_feed_importer.plugin.php:938
+#, php-format
+msgid "Send notifications for &laquo;%s&raquo;"
+msgstr "Отправка уведомлений для &laquo;%s&raquo;"
+
+#: ../../../_feed_importer.plugin.php:962
+msgid "Unable to create a post"
+msgstr "Не удалось создать запись"
+
+#: ../../../_feed_importer.plugin.php:998
+#, php-format
+msgid "and %d comments imported."
+msgstr ", а также %d комментариев."
+
+#: ../../../_feed_importer.plugin.php:1187
+msgid "Blog not found"
+msgstr "Блог не найден"
+
+#: ../../../_feed_importer.plugin.php:1300
+msgid "You're not allowed to view this page!"
+msgstr "У вас нет прав на просмотр этой страницы!"
+
+#: ../../../_feed_importer.plugin.php:1321
+msgid "Unable to create directory for exported files, contact the admin."
+msgstr "Не удалось создать директорию для экспортируемых файлов, свяжитесь с администратором системы."
+
+#: ../../../_feed_importer.plugin.php:1322
+#: ../../../_feed_importer.plugin.php:1494
+#, php-format
+msgid "You must create the following directory with write permissions (777):%s"
+msgstr "Вы должны создать следующую директорию с разрешениями на запись (777):%s"
+
+#: ../../../_feed_importer.plugin.php:1342
+msgid "Cannot create <i>.htaccess</i> file!"
+msgstr "Не удалось создать <i>.htaccess</i> файл!"
+
+#: ../../../_feed_importer.plugin.php:1343
+#, php-format
+msgid "Make sure the directory [%s] has write permissions (777)"
+msgstr "Убедитесь что директория [%s] имеет разрешения на запись (777)"
+
+#: ../../../_feed_importer.plugin.php:1458
+#, php-format
+msgid "Unable to read data from %s"
+msgstr "Не удалось получить данные из %s"
+
+#: ../../../_feed_importer.plugin.php:1559
+msgid "Unable to create CSV file."
+msgstr "Не удалось создать CSV файл."
+
+#: ../../../_feed_importer.plugin.php:1571
+#, php-format
+msgid "Blog #%d exported"
+msgstr "Блог #%d экспортирован"
+
+#: ../../../_feed_importer.plugin.php:1772
+msgid "Sorry, you have no permission to post yet. The Import feature is unavaliable."
+msgstr "Извините, у вас нет прав на запись. Импорт записей невозможен."
+
+#: ../../../_feed_importer.plugin.php:1834
+#: ../../../_feed_importer.plugin.php:1849
+#, php-format
+msgid "Categories for blog \"%s\""
+msgstr "Рубрики блога \"%s\""
+
+#~ msgid "This plugin allows you to create posts from XML feeds."
+#~ msgstr "Этот плагин позволяет импортировать записи из XML лент в блог."
+#~ msgid "Feed imorter plugin"
+#~ msgstr "Импорт XML лент"
+#~ msgid "Feed URL"
+#~ msgstr "URL ленты"
+#~ msgid "Categories"
+#~ msgstr "Категории"
+

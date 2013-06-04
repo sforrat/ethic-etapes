@@ -1,0 +1,36 @@
+/*-----------------------------------------------------------
+	Project:	......
+	Date : 	january 2008
+	Author:	C2iS - AFO
+	Summary : Print CSS		
+-----------------------------------------------------------*/
+
+body {background:#fff;font-size:8pt;font-family:Arial, sans-serif !important;}
+* {float:none !important;font-family:Arial, sans-serif !important;}
+
+#searchBox , #nav , #footer , #backTop , #sidebar , .btn  , .controlBox  , #flashHome , #push_offers , .carouselink  , #filter_results  , #searchTxt li dd.link , #ficheDest_side .inner_carousel , .pagination {display:none !important;}
+
+#blocSlider li .blocSlider_content {display:block !important;font-size:1em;width:100%;}
+#blocSlider li .blocSlider_content  *{padding-left:0;}
+
+#wrapper {width:95%;}
+#breadcrumb {margin:0 0 30px;font-size:1em;padding:0;}
+#inner_content , #ficheDest_side , #ficheDest_main , table.priceList  , #searchTxt li dl {width:95%;}
+#results li h3  , #results li p  , #searchTxt li h2 {margin-left:0;}
+#home #inner_content h1 {position: static;margin-bottom:20px;}
+
+.inner_carousel {overflow:visible !important}
+.inner_carousel ul {width:90% !important;position:static !important}
+.inner_carousel ul  li{width:100% !important;float:none !important;}
+
+#searchTxt li dl  {height:auto;margin-bottom:15px;}
+#searchTxt li dl , #searchTxt li dt, #searchTxt li dd {padding-left:0;}
+
+#ficheDest_side .logoDest {margin:15px 0;}
+#ficheDest_side .adresseDest {text-align:left;}
+.innerPopin .accessGuide .locate img {float:none;display:block;margin-bottom:20px;}
+
+
+
+
+

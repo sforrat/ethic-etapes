@@ -1,0 +1,1 @@
+#{include_php file="blocs/fiche_centre_localisation.php"}#

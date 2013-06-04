@@ -1,0 +1,10 @@
+Vagrant::Config.run do |config|
+    config.vm.host_name = "ethic-etapes"
+
+    config.vm.box = "base-squeeze64-lamp-52"
+    config.vm.box_url = "https://dl.dropbox.com/s/65nlg84xpn1urfu/base-squeeze64-lamp-52.box?dl=1"
+
+    config.vm.network :hostonly, "10.0.0.2", :netmask => "255.255.255.0"
+    config.vm.share_folder("vagrant-root", "/vagrant", ".", :nfs => true)
+    config.vm.forward_port 80, 8881
+end

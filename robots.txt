@@ -1,0 +1,10 @@
+User-agent: *
+Disallow: /admin
+Disallow: /blocs
+Disallow: /flash
+Disallow: /formulaires
+Disallow: /include
+Disallow: /phpdig
+Disallow: /tpl
+Disallow: /images/upload/postulant
+Disallow: /images/upload/fck

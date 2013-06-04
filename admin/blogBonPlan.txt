@@ -1,0 +1,75 @@
+title,content,date,status,locale,urltitle,url,comment_status,ptyp_ID,pst_ID,tags,priority,excerpt,views,datedeadline,featured,order,titletag,double1,double2,double3,double4,double5,varchar1,varchar2,varchar3
+"Séjour ANCV SENIORS EN VACANCES DU 17 AU 21 OCTOBRE 2010","<p><img width='400' style='display:block;' src='/images/upload/portfolio_img/mittelwihr_221274437530.jpg' /> Une offre de séjour 'tout compris' pension complète, excursions et animations. 300.00 ? par personne
+
+Le transport du domicile au lieu de séjour n'est pas inclu.
+
+L'ANCV finance la moitié du séjour pour les retraités âgées de 60 ans et plus, non imposables.</p>",2010-08-06,published,fr-FR,sejour-ancv-seniors-en-vacances-du-17-au-21-octobre-2010,,open,1,,,3,"Une offre de séjour 'tout compris' pension complète, excursions et animations. 300.00 ? par personne
+
+Le transport du domicile au lieu de séjour n'est pas inclu.
+
+L'ANCV finance la moitié du séjour pour les retraités âgées de 60 ans et plus, non imposables.",0,,0,,,,,,,,,,
+"FORMULE 7 JOURS","<p> Formule spéciale 'Familles' août 2010 (tarif spécial pour 7 nuits avec ou sans restauration)
+Nous consulter pour les tarfis
+Offre valable du 26 juillet 2010 au 31 août 2010</p>",2010-07-26,published,fr-FR,formule-7-jours,,open,1,,,3,"Formule spéciale 'Familles' août 2010 (tarif spécial pour 7 nuits avec ou sans restauration)
+Nous consulter pour les tarfis
+Offre valable du 26 juillet 2010 au 31 août 2010",0,,0,,,,,,,,,,
+"Formule Quinzaine à l'éthic étapes de Calais","<p> Tarif préférentiel (240 euros) à la quinzaine comprenant :
+- 1 chambre individuelle 
+- petit déjeuner offert
+Offre valable du 23 août 2010 au 28 février 2011
+
+</p>",2010-07-22,published,fr-FR,formule-quinzaine-a-l-ethic-etapes-de-calais,,open,1,,,3,"Tarif préférentiel (240 euros) à la quinzaine comprenant :
+- 1 chambre individuelle 
+- petit déjeuner offert
+Offre valable du 23 août 2010 au 28 février 2011
+
+",0,,0,,,,,,,,,,
+"Assister à un spectacle d'effets aquatiques grandiose cet été","<p> Strasbourg propose en juillet et août un spectacle d'effets aquatiques, avec sons et lumières sur la thématique 'Rêverie au fil de l'eau'. Ce spectacle de plein air gratuit vous fera découvrir Strasbourg comme capitale européenne, mais également la diversité des cultures de l'Union Européenne.
+
+Dates et horaires:
+Tous les soirs, dans le bassin d'Austerlitz
+Du 10 juillet au dimanche 29 août 
+à 22h30 en Juillet, et à 22h00 en Aôut.</p>",2010-07-07,published,fr-FR,assister-a-un-spectacle-d-effets-aquatiques-grandiose-cet-ete,,open,1,,,3,"Strasbourg propose en juillet et août un spectacle d'effets aquatiques, avec sons et lumières sur la thématique 'Rêverie au fil de l'eau'. Ce spectacle de plein air gratuit vous fera découvrir Strasbourg comme capitale européenne, mais également la diversité des cultures de l'Union Européenne.
+
+Dates et horaires:
+Tous les soirs, dans le bassin d'Austerlitz
+Du 10 juillet au dimanche 29 août 
+à 22h30 en Juillet, et à 22h00 en Aôut.",0,,0,,,,,,,,,,
+"La cathédrale de Strabourg illuminée cet été","<p> Durant la période estivale, chaque soir, la cathédrale de Strasbourg se pare des plus belles lumières. Du Vendredi 9 juillet au dimanche 29 aout 2010, de 22h30 à 00h30, toutes les 20 minutes, venez assister un spectacle de toute beauté.
+</p>",2010-07-07,published,fr-FR,la-cathedrale-de-strabourg-illuminee-cet-ete,,open,1,,,3,"Durant la période estivale, chaque soir, la cathédrale de Strasbourg se pare des plus belles lumières. Du Vendredi 9 juillet au dimanche 29 aout 2010, de 22h30 à 00h30, toutes les 20 minutes, venez assister un spectacle de toute beauté.
+",0,,0,,,,,,,,,,
+"Parcours Aquatonic- Thermes Marins de Saint-Malo","<p><img width='' style='display:block;' src='/images/upload/portfolio_img/' /> Un moment de détente au Thermes Marins, parcours Aquatonic (bains à jets, courants, bains à bulles, douches, etc... qui par l'intensité et le positionnement des jets traitent les différentes parties du corps. Les espaces du parcours et les différentes températures d'eau sont pensés pour favoriser la circulation sanguine et la tonicité musculaire, dans une atmosphère relaxante) + Hammam.
+(Ticket en vente à l'éthic étapes Centre Varangot de Saint Malo à tarif préférentiel).</p>",2010-06-21,published,fr-FR,parcours-aquatonic-thermes-marins-de-saint-malo,,open,1,,,3,"Un moment de détente au Thermes Marins, parcours Aquatonic (bains à jets, courants, bains à bulles, douches, etc... qui par l'intensité et le positionnement des jets traitent les différentes parties du corps. Les espaces du parcours et les différentes températures d'eau sont pensés pour favoriser la circulation sanguine et la tonicité musculaire, dans une atmosphère relaxante) + Hammam.
+(Ticket en vente à l'éthic étapes Centre Varangot de Saint Malo à tarif préférentiel).",0,,0,,,,,,,,,,
+"Séance Aquagym aux Thermes Marins de St-Malo.","<p><img width='650' style='display:block;' src='/images/upload/portfolio_img/aquagym_thermes_marins.e._margarita.jpg' /> Consacrez vous un petit moment de gym aquatique au Thermes Marins.
+(Ticket en vente à l'accueil du centre à tarif préférentiel).</p>",2010-06-21,published,fr-FR,seance-aquagym-aux-thermes-marins-de-st-malo.,,open,1,,,3,"Consacrez vous un petit moment de gym aquatique au Thermes Marins.
+(Ticket en vente à l'accueil du centre à tarif préférentiel).",0,,0,,,,,,,,,,
+"Visitez le Grand Aquarium de Saint Malo","<p> Le Grand Aquarium de Saint-Malo,vous fait vivre une aventure extraordinaire dans les plus beaux paysages sous-marins du monde. Imaginé autour d'une histoire amusante et originale, le Grand Aquarium se distingue des sites d'exposition de poissons par la diversité de ses animaux et ses décors thématisés.
+
+Partagez en famille des émotions et des sensations uniques. Jean Kermalo, explorateur malouin, vous entraîne dans un tour du monde des océans au travers de 9 espaces thématiques. Des mers froides aux mers chaudes, laissez-vous entraîner dans un voyage inoubliable.
+(Ticket en vente à tarif préférentiel à l'accueil du centre).
+ </p>",2010-06-21,published,fr-FR,visitez-le-grand-aquarium-de-saint-malo,,open,1,,,3,"Le Grand Aquarium de Saint-Malo,vous fait vivre une aventure extraordinaire dans les plus beaux paysages sous-marins du monde. Imaginé autour d'une histoire amusante et originale, le Grand Aquarium se distingue des sites d'exposition de poissons par la diversité de ses animaux et ses décors thématisés.
+
+Partagez en famille des émotions et des sensations uniques. Jean Kermalo, explorateur malouin, vous entraîne dans un tour du monde des océans au travers de 9 espaces thématiques. Des mers froides aux mers chaudes, laissez-vous entraîner dans un voyage inoubliable.
+(Ticket en vente à tarif préférentiel à l'accueil du centre).
+ ",0,,0,,,,,,,,,,
+" Cinéma Le Vauban à St-Malo.","<p> Echappez-vous au cinéma 'Le Vauban'  (5 salles).
+(Ticket en vente à l'accueil du centre à tarif préférentiel). Programme consultable sur place.</p>",2010-06-21,published,fr-FR,cinema-le-vauban-a-st-malo.,,open,1,,,3,"Echappez-vous au cinéma 'Le Vauban'  (5 salles).
+(Ticket en vente à l'accueil du centre à tarif préférentiel). Programme consultable sur place.",0,,0,,,,,,,,,,
+"Découverte du Zoo de la Bourbansais à proximité de Saint Malo","<p> Venez à la découverte du zoo de Bourbansais (à 40 km de Saint Malo) dans le domaine de Bourbansais, abritant plus de 500 animaux et profitez également du parc et du château. 
+Plusieurs fois par jour, les quipes de biologistes et d'animateurs réalisent des animations et spectacles quels que le 'Goûter de la Girafe', le spectacle de meute ou encore le spectacle de fauconnerie.
+
+(Ticket en vente à l'accueil de l'éthic étapes Centre Varangot à tarif préférentiel)</p>",2010-06-21,published,fr-FR,decouverte-du-zoo-de-la-bourbansais-a-proximite-de-saint-malo,,open,1,,,3,"Venez à la découverte du zoo de Bourbansais (à 40 km de Saint Malo) dans le domaine de Bourbansais, abritant plus de 500 animaux et profitez également du parc et du château. 
+Plusieurs fois par jour, les quipes de biologistes et d'animateurs réalisent des animations et spectacles quels que le 'Goûter de la Girafe', le spectacle de meute ou encore le spectacle de fauconnerie.
+
+(Ticket en vente à l'accueil de l'éthic étapes Centre Varangot à tarif préférentiel)",0,,0,,,,,,,,,,
+"Activités nautiques à St-Malo.","<p><img width='400' style='display:block;' src='/images/upload/portfolio_img/accueil_individuels_familles_malo_241277975770.jpg' /> Avec l'école nautique Surf School située à 400 mètre du centre, possibilité de cours de planche à voile, char à voile, catamaran. Il est possible également de louer du matériel (planche à voile, char à voile, char à voile double, catamaran (2 à 4 pers). Club de plage pour les enfants de 3 à 10ans.
+
+Tarif préférentiels et réservation à l'accueil du centre.</p>",2010-06-21,published,fr-FR,activites-nautiques-a-st-malo.,,open,1,,,3,"Avec l'école nautique Surf School située à 400 mètre du centre, possibilité de cours de planche à voile, char à voile, catamaran. Il est possible également de louer du matériel (planche à voile, char à voile, char à voile double, catamaran (2 à 4 pers). Club de plage pour les enfants de 3 à 10ans.
+
+Tarif préférentiels et réservation à l'accueil du centre.",0,,0,,,,,,,,,,
+"Navette bus de mer Saint Malo - Dinard","<p> Découvrez Saint-Malo/ Dinard par la mer. Une traversée de 10 minutes en bateau-bus pour rallier l'autre côté de la Rance.
+
+Tickets à tarif préférentiels en vente à l'accueil du centre.</p>",2010-06-21,published,fr-FR,navette-bus-de-mer-saint-malo--dinard,,open,1,,,3,"Découvrez Saint-Malo/ Dinard par la mer. Une traversée de 10 minutes en bateau-bus pour rallier l'autre côté de la Rance.
+
+Tickets à tarif préférentiels en vente à l'accueil du centre.",0,,0,,,,,,,,,,

@@ -1,0 +1,30 @@
+/*-----------------------------------------------------------
+	Project: .....	
+	Date : 	January 2008
+	Last Update : 06/01/09
+	Author:	C2iS - AFO
+	Summary : Styles for IE6						
+-----------------------------------------------------------*/
+#searchBox , #sidebar , #inner_content  , #nav li .widesubMenu dl  , #moteurResa .valid_moteurResa , .skinThisForm .validLine , #moteurResa .newListSelected  , #filter_results fieldset   {display:inline;}
+
+#nav  {line-height:14px;}
+#nav li.navHover ul  {left:0;visibility:visible;}
+#nav li.navHover .widesubMenu {left:0;visibility:visible;}
+#nav li.navHover li {vertical-align:bottom;zoom:1;}
+#nav li.navHover li ul  {left:-999em;visibility:hidden;}
+/*#nav li.navHover li.subNavHover ul {left:100%;visibility:visible;}*/
+/*#nav li li li a:hover {background:url(../images/common/bg_subMenuHover.png) repeat-x 0 0;}*/
+
+#nav li .widesubMenu dl dd a:hover  {background:url(../images/common/bg_subMenuHover.png) repeat-x 0 0;}
+
+#content {height:600px;}
+#headDestination_text {height:146px;}
+#push_newsletter  , #push_brochures {height:63px;}
+#subMenu_sidebar li {zoom:1;vertical-align:bottom;}
+#moteurResa .newListSelected   {margin:1px 5px 1px 0;}
+
+#detailsSejour li{zoom:1;}
+#detailsSejour li.coord {background-image:none;}
+
+#headDestination {zoom:1;}
+#headDestination_text {background-image:none !important;background-color:#768D16;width:302px;padding:17px 25px 13px 25px;}

@@ -1,0 +1,1 @@
+title,content,date,status,locale,urltitle,url,comment_status,ptyp_ID,pst_ID,tags,priority,excerpt,views,datedeadline,featured,order,titletag,double1,double2,double3,double4,double5,varchar1,varchar2,varchar3
