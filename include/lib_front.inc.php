@@ -2269,7 +2269,6 @@ function getFileFromBDD($valeur_file,$table,$path="" )
 		{
 			$file_dir 			= "portfolio_img";
 			$valeur_file  		= get_portfolio_img( $valeur_file );
-
 		}
 		else
 		{
