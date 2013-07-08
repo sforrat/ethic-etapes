@@ -6,13 +6,13 @@
 //DEFINITIONS DES CONSTANTES SPECIFIQUES � l'APPLICATION LOCALE
 
 // Email webmaster (from des emails)
-define("_MAIL_WEBMASTER","info@ethic-etapes.fr");
-define("_MAIL_WEBMASTER_COPY","site@ethic-etapes.fr");
+define("_MAIL_WEBMASTER","f.frezzato@c2is.fr");
+define("_MAIL_WEBMASTER_COPY","s.forrat@c2is.fr");
 //define("_MAIL_WEBMASTER","f.frezzato@c2is.fr");
-define("_MAIL_WEBMASTER_C2IS","ethic-etapes@c2is.fr");
-define("_MAIL_CONTACT_PRESSE","info@ethic-etapes.fr");
-define("_MAIL_CONTACT_EMPLOI","site@ethic-etapes.fr");
-define("_MAIL_CONTACT_SEJOUR","info@ethic-etapes.fr");
+define("_MAIL_WEBMASTER_C2IS","f.frezzato@c2is.fr");
+define("_MAIL_CONTACT_PRESSE","f.frezzato@c2is.fr");
+define("_MAIL_CONTACT_EMPLOI","f.frezzato@c2is.fr");
+define("_MAIL_CONTACT_SEJOUR","f.frezzato@c2is.fr");
 //define("_MAIL_CONTACT_SEJOUR","f.frezzato@c2is.fr");
 
 define('_URL_HOSTELWORLD', 'http://www.hostelworld.com/');

@@ -2,11 +2,19 @@
 $bUpdateDicDataNav = false;
 $noFile = false ;
 
-// CAS ACTUALITES - POST SUR FACEBOOK OU NON (AVEC ROOT PERMISSION CHECK
-if($_SESSION['ses_profil_user'] == '1' && $_GET["TableDef"] == _CONST_TABLEDEF_ACTUALITE && isset($_REQUEST['post_on_facebook']) && $_REQUEST['post_on_facebook'] == '1')
+/*
+ini_set('display_errors', 1);
+error_reporting(E_ALL);
+*/
+
+// TRAITEMENT POUR FACEBOOK - ACTUALITES (SI ROOT + TABLE ACTUALITE + TEXTE FB + DATE POST FB
+if(     $_SESSION['ses_profil_user'] == '1'
+    &&  $_GET["TableDef"] == _CONST_TABLEDEF_ACTUALITE
+    &&  $_REQUEST['field_texte_facebook'] != ''
+    &&  $_REQUEST['field_date_post_facebook'] != '')
 {
+    // Include
     require_once('../include/lib_front.inc.php');
-    require_once('../facebook-php-sdk/src/facebook.php');
 
     // Condition pour que ca marche en local
     if(_CONST_APPLI_URL == 'http://localhost:8881/')
@@ -14,26 +22,53 @@ if($_SESSION['ses_profil_user'] == '1' && $_GET["TableDef"] == _CONST_TABLEDEF_A
     else
         $image_fb = _CONST_APPLI_URL.getFileFromBDD($_REQUEST['field_visuel_facebook_port'], 'actualite', '../');
 
-    $texte = $_REQUEST['field_texte_facebook'];
+    $texte = addslashes($_REQUEST['field_texte_facebook']);
 
-    $app_config = array(
-        'appId' => _CONST_FB_API_APP_ID,
-        'secret' => _CONST_FB_API_SECRET_ID
-    );
-    $page_config = array(
-        'access_token' => _CONST_FB_API_TOKEN,
-        'page_id' => _CONST_FB_API_PAGE_ID
-    );
+    $datetmp = split("/",substr($_REQUEST['field_date_post_facebook'],0,10));
+    $date_post_facebook = $datetmp[2]."-".$datetmp[1]."-".$datetmp[0];
 
-    $facebook = new Facebook($app_config);
+    // Verification si existe ou non
+    $str_select_cron_fb = 'select * from cron_actualites_facebook where id_actualite = \''.$_REQUEST['ID'].'\' ';
+    $rst_select_cron_fb = mysql_query($str_select_cron_fb);
 
-    $params = array(
-        'access_token' => $page_config['access_token'],
-        'message' => $texte,
-        'url' => $image_fb,
-    );
+    // N'existe pas - Sauvegarde en base
+    if(mysql_num_rows($rst_select_cron_fb) == 0)
+    {
+        $str_insert_cron_fb = ' INSERT INTO cron_actualites_facebook (
+                                                                        date_post_facebook,
+                                                                        message,
+                                                                        url_image,
+                                                                        a_ete_poste,
+                                                                        id_actualite)
+                                                              VALUES (
+                                                                        \''.$date_post_facebook.'\',
+                                                                        \''.$texte.'\',
+                                                                        \''.$image_fb.'\',
+                                                                        0,
+                                                                        \''.$_REQUEST['ID'].'\'
+                                                                      ) ';
+        $rst_insert_cron_fb = mysql_query($str_insert_cron_fb);
+    }
+    // Existe et date differente - On update et on passe le statut a non poste
+    else
+    {
+        $row = mysql_fetch_array($rst_select_cron_fb);
 
-    $post_id = $facebook->api('/'.$page_config['page_id'].'/photos','post',$params);
+        if($row['date_post_facebook'] != $date_post_facebook)
+        {
+            $str_update_cron_fb = ' UPDATE cron_actualites_facebook
+                                    SET date_post_facebook = \''.$date_post_facebook.'\',
+                                        message = \''.$texte.'\',
+                                        url_image = \''.$image_fb.'\',
+                                        a_ete_poste = 0
+                                    WHERE id_actualite = \''.$_REQUEST['ID'].'\' ';
+            $rst_update_cron_fb = mysql_query($str_update_cron_fb);
+        }
+    }
+
+    // Appel du cron pour application directe si besoin
+    include('../cron/cron_facebook_actualite.php');
+
 }
 
 if (isset($_REQUEST['action']) && $_REQUEST['action']==1) {//Action valide

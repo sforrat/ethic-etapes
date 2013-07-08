@@ -320,6 +320,7 @@ if ($mode=="modif" || $mode=="nouveau" || $mode=="supr" || $mode=="duplicate")
             ($fieldname == "id__langue" && $_SESSION['ses_profil_user'] == _PROFIL_CENTRE && $_GET["TableDef"] != _CONST_TABLEDEF_ACTUALITE && $_GET["TableDef"] != _CONST_TABLEDEF_BON_PLAN) ||
 
             ($fieldname == "visuel_facebook" && $_SESSION['ses_profil_user'] != '1' && $_GET["TableDef"] == _CONST_TABLEDEF_ACTUALITE) ||
+            ($fieldname == "date_post_facebook" && $_SESSION['ses_profil_user'] != '1' && $_GET["TableDef"] == _CONST_TABLEDEF_ACTUALITE) ||
             ($fieldname == "texte_facebook" && $_SESSION['ses_profil_user'] != '1' && $_GET["TableDef"] == _CONST_TABLEDEF_ACTUALITE)
 
         ){
@@ -1914,6 +1915,7 @@ if ($mode=="modif" || $mode=="nouveau" || $mode=="supr" || $mode=="duplicate")
     //Fin de la boucle sur chacun des champs de la requete
 
     // BOUTON Pour post Facebook lors de validation
+    /*
     if($_SESSION['ses_profil_user'] == '1' && $_GET["TableDef"] == _CONST_TABLEDEF_ACTUALITE)
     {
         echo '<tr>
@@ -1923,6 +1925,7 @@ if ($mode=="modif" || $mode=="nouveau" || $mode=="supr" || $mode=="duplicate")
                 </td>
             </tr>';
     }
+    */
 
     echo "</table>" ;
     echo "</div>";
