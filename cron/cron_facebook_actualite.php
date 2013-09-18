@@ -8,7 +8,8 @@ ini_set('display_errors', 1);
 error_reporting(E_ALL);
 */
 
-$path = '../';
+//$path = '../';
+$path = dirname(__FILE__).'/../';
 
 //require_once($path.'include/inc_header.inc.php');
 require_once($path.'admin/library_local/lib_global.inc.php');
